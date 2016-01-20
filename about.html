@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>My First Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+         <script src="script.js"></script>
+
+</head>
+
+<body>
+
+
+    <section id="page">
+    <header>
+
+		 <nav class="clear">
+
+			<ul>
+
+				<li><a href="mainpage.html">HOME</a></li>
+				<li><a  href="about.html">ABOUT US</a></li>
+				<li><a href="classess.html">CLASSES</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+			   <li><a href="contact.html">CONTACT</a></li>
+
+                	</ul>
+
+		</nav>
+
+	</header>
+
+    <div class="line"></div>
+
+	<article id="article1">
+
+		<h2>ABOUT US</h2>
+
+		<div class="line"></div>
+
+		<div class="articleBody clear">
+
+			<figure>
+
+
+					<img src="about.jpg" width="620" height="340" /></a>
+
+			</figure>
+
+			<p>ndian classical music is categorized under two genres. These are Hindustani and Carnatic. Broadly speaking, Hindustani developed in the northern regions of the country, while Carnatic music is indigenous to the south.
+
+Carnatic music is considered one of the oldest systems of music in the world. Imbued with emotion and the spirit of improvisation, it also contains a scientific approach. This is mainly due to the contributions of such inspired artists as Purandara Dasa, known as the Father of Carnatic Music, and other scholars who codified the system and gave it a clear format as a medium of teaching, performing, prayer and therapy.
+
+The basis of Carnatic music is the system of ragas (melodic scales) and talas (rhythmic cycles). There are seven rhythmic cycles and 72 fundamental ragas. All other ragas are considered to have stemmed from these. An elaborate scheme exists for identifying these scales, known as the 72 Melakarta Ragas.
+
+Carnatic music abounds in structured compositions in the different ragas. These are songs composed by great artists and handed down through generations of disciples. While the improvised elaboration of a raga varies from musician to musician, the structured portion is set. These compositions are extremely popular, with a strong accent on rhythm and lively melodic patterns. Three saint composers of the nineteenth century, Tyagaraja, Muthuswami Dikshitar and Shyama Shastri, have composed thousands of songs that remain favourites among musicians and audiences.
+
+An important element of Carnatic music is its devotional content. The lyrics of the traditional compositions, whether mythological or social in nature, are set entirely against a devotional or philosophical background
+
+</p>
+
+
+
+		</div>
+        </article>
+
+         <footer>
+
+			<div class="line"></div>
+
+			<p>Copyright 2015 - sreevidhyamusic.com</p>
+			<a href="#" class="up">Go UP</a>
+		</footer>
+
+
+	</section>
+
+                 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>
+
+	<script src="script.js"></script>
+    <script>
+   $(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash);
+  });
+});
+
+ </script>
+
+
+</body>
+
+</html>
